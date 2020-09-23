@@ -1,0 +1,67 @@
+body{
+    background-color: #e2e7ec;
+}
+
+@font-face {
+    font-family: 'Hans Kendrick';
+    src: url('./fonts/NeueHansKendrick-Regular.otf');
+    src: url('./fonts/NeueHansKendrick-Regular.ttf');
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 1100px;
+    justify-content: space-between;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.pic-two, .pic-three, .pic-four, .pic-five{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 0 0 180px;
+    box-sizing: border-box;
+}
+
+div.pic-one, div.pic-two, div.pic-five, div.pic-four, div.pic-three {
+    margin-top: 20px;
+}
+
+h5, h2, p {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: 'Hans Kendrick', serif;
+}
+
+h2{
+    font-size: 22px;
+}
+
+h5{
+    font-size: 13px;
+    color: rgb(129, 129, 129);
+}
+
+div.pic-one {
+    position: relative;
+}
+
+div.text {
+    position: absolute;
+    color: white;
+    margin-top: 380px;
+}
+ div.text h5 {
+     color: white;
+ }
+
+ div.icon {
+    padding-left: 30px;
+ }
