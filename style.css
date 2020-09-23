@@ -12,7 +12,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     flex: 0 0 960px;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .flex-item {
@@ -20,6 +20,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     background-color: white;
+    margin-left: 15px;
 }
 
 .pic-two, .pic-three, .pic-four, .pic-five{
